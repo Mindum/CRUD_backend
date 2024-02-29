@@ -16,8 +16,6 @@ import java.util.Map;
 
 @RestController
 public class AccountController {
-
-
     @Autowired
     MemberRepository memberRepository;
 
