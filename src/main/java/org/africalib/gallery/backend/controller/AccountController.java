@@ -25,7 +25,7 @@ public class AccountController {
         Member member = memberRepository.findByEmailAndPassword(params.get("email"), params.get("password"));
 
         if (member != null) {
-            return member.getId();
+           // return member.getId();
         }
         return 0;
     }
